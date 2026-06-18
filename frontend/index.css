@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f5f1eb;
+    color: #222222;
+}
+
+#app {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 32px 20px 48px 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+section {
+    border: 1px solid #d8d0c2;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+
+.section-navigation {
+    background-color: #bfdcff;
+}
+
+.section-add-movie {
+    background-color: #d9c9f2;
+}
+
+.section-search {
+    background-color: #d9c9f2;
+}
+
+.section-average {
+    background-color: #d9c9f2;
+}
+
+.section-rate {
+    background-color: #d9c9f2;
+}
+
+.section-session {
+    background-color: #f4c3b8;
+}
+
+.section-recommendations {
+    background-color: #d9c9f2;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+label {
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+input,
+select,
+button {
+    font: inherit;
+    padding: 8px 10px;
+    margin-right: 8px;
+    margin-bottom: 12px;
+}
+
+button {
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+th,
+td {
+    border: 1px solid #bfb6a8;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ece6da;
+}
+
+.message {
+    padding: 10px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.message.success {
+    background-color: #dff3e3;
+    color: #1f6b34;
+}
+
+.message.error {
+    background-color: #f8dede;
+    color: #8b1e1e;
+}

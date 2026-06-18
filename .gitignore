@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+
+# Virtual environments
+venv/
+.venv/
+backend/venv/
+frontend/venv/
+
+# macOS
+.DS_Store
+
+# Editor directories
+.vscode/
+
+# Local database artifacts
+*.db
